@@ -57,8 +57,6 @@ int main(){ _
     while (cin >> verticesAmount) {
         fill(&graph[0][0], &graph[0][0] + sizeof(graph), false);
         memset(weights, 0, sizeof(weights));
-        // fill_n(weights, sizeof(weights), 0);
-        // fill(&weights[0], &weights[0] + sizeof(weights), 0);
         cin >> edgesAmount >> ammunitionAmount >> hitProbability;
         for (int i = 0; i < edgesAmount; i++) {
             int firstVertex, secondVertex;
