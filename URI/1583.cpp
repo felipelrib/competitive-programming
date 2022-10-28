@@ -58,7 +58,6 @@ void printMap(int rowsAmount, int columnsAmount) {
 int main() { _
     int rowsAmount, columnsAmount;
     queue<int> startingCells;
-    string shirtType;
     while (cin >> rowsAmount && rowsAmount > 0) {
         cin >> columnsAmount;
         verticesAmount = rowsAmount * columnsAmount;
